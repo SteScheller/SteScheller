@@ -1,5 +1,11 @@
-### Hi there 👋
-
+```rust
+pub fn singin(things: &mut [State]) {
+    // worry(&things[0]);
+    for little_thing in things.iter_mut() {
+        *little_thing = State::Alright;
+    }
+}
+```
 <!--
 **SteScheller/SteScheller** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
